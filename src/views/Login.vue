@@ -122,6 +122,7 @@ export default {
 
             localStorage.setItem('token', token)
             localStorage.setItem('id', id)
+            localStorage.setItem('status', true)
             swal(
                 'Welcome!',
                 'Login success',
